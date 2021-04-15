@@ -1,0 +1,15 @@
+{
+  "name": "lez1",
+  "version": "0.1.0",
+  "description": "",
+  "main": "transcript.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Stefano",
+  "license": "ISC",
+  "dependencies": {
+    "dayjs": "^1.10.4",
+    "sqlite3": "^5.0.2"
+  }
+}

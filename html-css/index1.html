@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+
+<html lang="it">
+    <head>
+        <!--Metadati richiesti-->
+        <title>Esami</title>
+        <link rel="stylesheet" href="style.css"> <!--importazione del file style.css-->
+    </head>
+
+    <body>
+        <header>
+            <h1>I miei esami</h1>  <!--header di primo livello-->
+        </header>
+
+        <aside> <!--parte di navigazione distaccata dal main generalmente presente alla sua sinistra-->
+            <!--<p>Questa &egrave; la sidebar</p>--> <!--&grave; rappresenta la 'è' scritta in tale modo in modo tale da essere intrpretata da ogni browser-->
+            <p class="sidebar">Questa &egrave; la sidebar</p> <!--utilizza come stile quello rlativo alla classe sidebar-->
+        </aside>
+
+        <main>
+            <p>La tabella seguente riassume gli esami che ho sostenuto al 
+                <a href="https://www.polito.it" title="Vai al sito del Politecnico">
+                    Politecnico di Torino
+                </a>. <!--link ipertestuale href->link, title->descrizione-->
+            </p> <!--paragrafo-->
+
+            <!--<p>Questo &egrave; un paragrafo</p>-->
+
+            <table> <!--tabella-->
+                <thead> <!--cima della tabella-->
+                    <tr> <!--nuova riga tabella-->
+                        <th>Data</th> <!--nuova colonna di intestazione tabella con dentro scritto "Data"-->
+                        <th>Esame</th>
+                        <th>CFU</th>
+                        <th>Voto</th>
+                        <th>Azioni</th>
+                    </tr>
+                </thead>
+
+                <tbody> <!--corpo della tabella-->
+                    <tr>
+                        <td>01/02/2021</td> <!--nuova colonna del corpo della tabella con dentro scritto "01/02/2021"-->
+                        <td>Architetture dei sistemi di Elaborazione</td>
+                        <td>10</td>
+                        <td>29</td>
+                        <td><button>X</button></td>
+                    </tr>
+                    <tr>
+                        <td>06/02/2021</td>
+                        <td>Data Science e tecnologie per le basi dati</td>
+                        <td>8</td>
+                        <td>27</td>
+                        <td><button>X</button></td> <!--nuovo bottone all'interno della colonna con dentro scritto "X"-->
+                    </tr>
+                    <tr>
+                        <td>15/02/2021</td>
+                        <td>Tecnologie e servizi di rete</td>
+                        <td>6</td>
+                        <td>30 e lode</td>
+                        <td><button>X</button></td>
+                    </tr>
+                </tbody>
+            </table> 
+        </main>
+
+        <footer> <!--tag relativo al fondo della pagina html-->
+            <p>&copy; 2021 Applicazioni Web 1 [M-Z]</p> <!--&copy; rappresenta il simbolo del copyright interpretabile da tutti i browser-->
+        </footer>
+        
+    </body>
+</html>
